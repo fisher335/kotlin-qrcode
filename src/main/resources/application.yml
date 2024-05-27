@@ -1,0 +1,6 @@
+server:
+  port: 9000
+  resources:
+web:
+  filepath: D:/temp/file
+  qrpath: D:/temp/qrcode
