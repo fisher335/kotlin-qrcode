@@ -1,6 +1,5 @@
 package com.feng.qrcode.controller
 
-import ch.qos.logback.core.util.FileUtil
 import cn.hutool.json.JSONObject
 import com.example.entity.FileInfo
 import com.feng.qrcode.utils.FileUtils
