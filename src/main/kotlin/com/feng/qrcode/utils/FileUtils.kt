@@ -22,7 +22,7 @@ import java.util.*
  * @Date: 2022/6/27
  */
 @Component
-open class FileUtils() {
+class FileUtils() {
     @Value("\${web.qrpath}")
     val QR_PATH: String? = null
     fun getSize(i: Long): String {

@@ -5,6 +5,7 @@ import com.example.entity.FileInfo
 import com.feng.qrcode.utils.FileUtils
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
+import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
@@ -20,9 +21,8 @@ class FileController {
     @Autowired
     lateinit  var fileUtils: FileUtils
 
-    @RequestMapping(value = ["/"])
+    @GetMapping(value = ["/"])
     fun helloWorld(request: HttpServletRequest): String {
-
         return "hello world!"
     }
 
